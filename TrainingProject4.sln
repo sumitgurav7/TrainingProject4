@@ -5,6 +5,23 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingProject4", "TrainingProject4\TrainingProject4.csproj", "{1AC9E9B4-B392-403C-BABB-FEF77537C5CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLock", "ThreadLock\ThreadLock.csproj", "{889BA951-A2AF-4A53-8084-67AFA167B53B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{110A298A-B105-4270-8A23-43A9E8AC02CE}"
+	ProjectSection(SolutionItems) = preProject
+		NotesSemaphoreMutexLock.cs = NotesSemaphoreMutexLock.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigNumberAdd", "BigNumberAdd\BigNumberAdd.csproj", "{A20FE683-5CC1-414C-A19F-B2F895675339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAawait", "AsyncAawait\AsyncAawait.csproj", "{2263AA75-1B9D-4C26-BABE-C2641397742C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexLearn", "MutexLearn\MutexLearn.csproj", "{2B40BDDC-472F-4D07-BE6C-C3C80C109F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolAdventures", "ThreadPoolAdventures\ThreadPoolAdventures.csproj", "{76ED4098-F840-4238-A24C-4E5B371FD532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLock", "DeadLock\DeadLock.csproj", "{AED810DB-49D3-4076-8D2D-6A7E689C3D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +32,30 @@ Global
 		{1AC9E9B4-B392-403C-BABB-FEF77537C5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AC9E9B4-B392-403C-BABB-FEF77537C5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AC9E9B4-B392-403C-BABB-FEF77537C5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889BA951-A2AF-4A53-8084-67AFA167B53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889BA951-A2AF-4A53-8084-67AFA167B53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889BA951-A2AF-4A53-8084-67AFA167B53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889BA951-A2AF-4A53-8084-67AFA167B53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20FE683-5CC1-414C-A19F-B2F895675339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20FE683-5CC1-414C-A19F-B2F895675339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20FE683-5CC1-414C-A19F-B2F895675339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20FE683-5CC1-414C-A19F-B2F895675339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2263AA75-1B9D-4C26-BABE-C2641397742C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2263AA75-1B9D-4C26-BABE-C2641397742C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2263AA75-1B9D-4C26-BABE-C2641397742C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2263AA75-1B9D-4C26-BABE-C2641397742C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B40BDDC-472F-4D07-BE6C-C3C80C109F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B40BDDC-472F-4D07-BE6C-C3C80C109F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B40BDDC-472F-4D07-BE6C-C3C80C109F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B40BDDC-472F-4D07-BE6C-C3C80C109F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ED4098-F840-4238-A24C-4E5B371FD532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ED4098-F840-4238-A24C-4E5B371FD532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ED4098-F840-4238-A24C-4E5B371FD532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ED4098-F840-4238-A24C-4E5B371FD532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED810DB-49D3-4076-8D2D-6A7E689C3D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED810DB-49D3-4076-8D2D-6A7E689C3D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED810DB-49D3-4076-8D2D-6A7E689C3D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED810DB-49D3-4076-8D2D-6A7E689C3D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
